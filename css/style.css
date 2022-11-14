@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
 header{
     display: flex;
     width: 100%;
@@ -18,23 +19,49 @@ header{
     flex-direction: row;
 }
 header .container{
-    border: 1px dashed black;
     background-color: orange;
     width: 1200px;
     min-height: 40px;
 }
+.information-link{
+    display: flex;
+    justify-content: center;
+}
 .logo{
-    width: 400px;
+    width: 200px;
     height: 40px;
     border: 1px dashed black;
+    
 }
 .link{
-    width: 400px;
+    min-width: 800px;
     height: 40px;
     border: 1px dashed black;
 }
 .login{
-    width: 400px;
+    width: 200px;
     height: 40px;  
     border: 1px dashed black;
+}
+/* MAIN */
+section{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+#section1{
+    background-color: blue;
+}
+#section3{
+    background-color: lightgray;
+}
+#section5{
+    min-height: 700px;
+    background-color: lightgray;
+
+}
+#section1 .container{
+    width: 800px;
+    min-height: 400px ;
+    background-color: pink;
 }
