@@ -7,8 +7,9 @@
 /* HEADER */
 header{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     background-color: aqua;
 }
 .container{
@@ -52,16 +53,15 @@ section{
 #section1{
     background-color: blue;
 }
+#section1 .container{
+    width: 800px;
+    min-height: 400px;
+    background-color: pink;
+}
 #section3{
     background-color: lightgray;
 }
 #section5{
     min-height: 700px;
     background-color: lightgray;
-
-}
-#section1 .container{
-    width: 800px;
-    min-height: 400px ;
-    background-color: pink;
 }
